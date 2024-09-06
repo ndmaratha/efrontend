@@ -1,6 +1,6 @@
 
-export const singleProductUrl="https://ebackend-m32m.onrender.com/product/";
-export const mainUrl="https://ebackend-m32m.onrender.com/get/products"
+export const singleProductUrl="https://ecommercebackend-cr2m.onrender.com/product/";
+export const mainUrl="https://ecommercebackend-cr2m.onrender.com/get/products"
 export const filterData=(search,MainData)=>{
  return MainData.filter((item) => {
     if (search === "" || search == null) {
